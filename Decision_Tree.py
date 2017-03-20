@@ -134,8 +134,8 @@ data = [['slashdot','USA','yes',18,'None'],
         ['google','UK','yes',18,'Basic'],
         ['kiwitobes','France','yes',19,'Basic']]
 tree = buildTree(data)
-print classify(['(direct)','USA','yes',5],tree)
-printGuess (classify(['(direct)','USA','yes',5],tree))
+# print classify(['(direct)','USA','yes',5],tree)
+# printGuess (classify(['(direct)','USA','yes',5],tree))
 # print entropy(data)
 # set1,set2=divideSet(data,3,20)
 # print entropy(set1), entropy(set2)

@@ -1,4 +1,3 @@
-library(rPython)
-python.load('../Decision_Tree.py')
-output <- 'Decision Tree Loaded'
-print(output)
+library(reticulate)
+output <- py_config()
+print (output)
